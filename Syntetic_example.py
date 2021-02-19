@@ -19,7 +19,7 @@ for d in tqdm.tqdm(d_set):
             # parameters of synthetic data
             mean1 = np.zeros(d)
             mean1[0] = 0.5
-            cov1 = np.diag(np.ones(d)) * 0.01
+            cov1 = np.diag(np.ones(d)) * 0.05
             mean2 = np.zeros(d)
             mean2[0] = 0.1
             # generation of synthetic data
